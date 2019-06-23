@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QuizOnn</title>
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+  <link rel="stylesheet" type="text/css" href="sidebar.css">
+  <link rel="shortcut icon" type="image/x-icon" href="icon1.png">
+  <link rel="stylesheet" type="text/css" href="subtopic.css">
+</head>
+<body bgcolor="#333">
+  <div>
+    <p class="fl" style="color: yellow; font-family: viner hand itc; font-size: 40px;">QuizOnn</p>
+    <p class="fr" style="color: red; font-family: monotype corsiva; font-size: 30px;">Welcome Player &nbsp;</p>
+  </div>
+  <br><br><br><br>
+  <hr noshade="none">
+<div class="topnav">
+  <a href="index.html">Logout</a>
+  <a href="#about">My Profile</a>
+  <a href="#about">Articles</a>
+  <a href="#home" style="cursor: pointer;" onclick="openNav()">Categories</a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="tv.html">TV Series</a>
+  <a href="movies.html">Movies</a>
+  <a href="science.html">Science</a>
+  <a href="books.html">Books</a>
+  <a href="technology.html">Technology</a>
+  <a href="knowurworld.html">Know Your World</a>
+  <a href="sports.html">Sports</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px" onclick="openNav()"></span>
+</div>
+
+
+<div class="container1">
+  
+  <img src="phy.jpg" alt="Game of Thrones" class="image" style="width: 270px; height: 350px;">
+<div class="middle">
+    <div class="text">Play</div>
+  </div>
+</div>
+  
+<div class="content1">
+    <p style="text-align: center; color: white; vertical-align: top;">In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea.</p>
+</div>
+  
+
+<div class="container2">
+  <img src="chem.jpg" alt="Friends" class="image" style="width: 270px; height: 350px;">
+  <div class="middle">
+    <div class="text">Play</div>
+  </div>
+</div>
+
+<div class="content2">
+    <p style="text-align: center; color: white; vertical-align: top;">Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds, living off of one another in the heart of New York City. Over the course of ten years, this average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.</p>
+</div>
+
+<div class="container3">
+  <img src="bio.jpg" alt="Suits" class="image" style="width: 270px; height: 350px;">
+  <div class="middle">
+    <div class="text">Play</div>
+  </div>
+</div>
+
+<div class="content3">
+    <p style="text-align: center; color: white; vertical-align: top;">While running from a drug deal gone bad, Mike Ross, a brilliant young college dropout, slips into a job interview with one of New York City's best legal closers, Harvey Specter. Mike's allies in the office include the firm's best paralegal Rachel and Harvey's no-nonsense assistant Donna to help him serve justice. Proving to be an irrepressible duo and invaluable to the practice, Mike and Harvey must keep their secret from everyone including managing partner Jessica and Harvey's arch nemesis Louis.</p>
+</div>
+
+<div class="container4">
+  <img src="math.jpg" alt="Sherlock Holmes" class="image" style="width: 270px; height: 350px;">
+  <div class="middle">
+    <div class="text">Play</div>
+  </div>
+</div>
+
+<div class="content4">
+    <p style="text-align: center; color: white; vertical-align: top;">In this modernized version of the Conan Doyle characters, using his detective plots, Sherlock Holmes lives in early 21st century London and acts more cocky towards Scotland Yard's detective inspector Lestrade because he's actually less confident. Doctor Watson is now a fairly young veteran of the Afghan war, less adoring and more active.</p>
+</div>
+
+<div class="container5">
+  <img src="ast.jpg" alt="Stranger Things" class="image" style="width: 270px; height: 350px;">
+  <div class="middle">
+    <div class="text">Play</div>
+  </div>
+</div>
+
+<div class="content5">
+    <p style="text-align: center; color: white; vertical-align: top;">In a small town where everyone knows everyone, a peculiar incident starts a chain of events that leads to the disappearance of a child - which begins to tear at the fabric of an otherwise peaceful community. Dark government agencies and seemingly malevolent supernatural forces converge on the town while a few locals begin to understand that there's more going on than meets the eye.</p>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "#333";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "#333";
+}
+</script>
+</body>
+</html>
